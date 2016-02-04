@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chip-8 emulator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script language='javascript' src='chip-8.js'></script>
+    <script language='javascript' src='input.js'></script>
+</head>
+<body>
+    <div class='rom-select'>
+        ROM <select id='rom'>
+            <option value="15PUZZLE">15PUZZLE</option>
+            <option value="BLINKY">BLINKY</option>
+            <option value="BLITZ">BLITZ</option>
+            <option value="BRIX">BRIX</option>
+            <option value="CONNECT4">CONNECT4</option>
+            <option value="GUESS">GUESS</option>
+            <option value="HIDDEN">HIDDEN</option>
+            <option value="IBM">IBM</option>
+            <option value="INVADERS">INVADERS</option>
+            <option value="KALEID">KALEID</option>
+            <option value="MAZE">MAZE</option>
+            <option value="MERLIN">MERLIN</option>
+            <option value="MISSILE">MISSILE</option>
+            <option value="PONG">PONG</option>
+            <option value="PONG2">PONG2</option>
+            <option value="PUZZLE">PUZZLE</option>
+            <option value="SYZYGY">SYZYGY</option>
+            <option value="TANK">TANK</option>
+            <option value="TETRIS">TETRIS</option>
+            <option value="TICTAC">TICTAC</option>
+            <option value="UFO">UFO</option>
+            <option value="VBRIX">VBRIX</option>
+            <option value="VERS">VERS</option>
+            <option value="WIPEOFF">WIPEOFF</option>
+        </select>
+        <button id='start'>Start</button>
+    </div>
+    <div class='monitor'>
+        <canvas id='canvas' width='640px' height='320px'></canvas>           
+    </div>
+    <div class='keyboard'>
+        <div class='keyboard-row'>
+            <button id='key1' class='key'>1</button>
+            <button id='key2' class='key'>2</button>
+            <button id='key3' class='key'>3</button>
+            <button id='keyC' class='key'>4</button>
+        </div>
+        <div class='keyboard-row'>
+            <button id='key4' class='key'>Q</button>
+            <button id='key5' class='key'>W</button>
+            <button id='key6' class='key'>E</button>
+            <button id='keyD' class='key'>R</button>
+        </div>
+        <div class='keyboard-row'>
+            <button id='key7' class='key'>A</button>
+            <button id='key8' class='key'>S</button>
+            <button id='key9' class='key'>D</button>
+            <button id='keyE' class='key'>F</button>
+        </div>
+        <div class='keyboard-row'>
+            <button id='keyA' class='key'>Z</button>
+            <button id='key0' class='key'>X</button>
+            <button id='keyB' class='key'>C</button>
+            <button id='keyF' class='key'>V</button>
+        </div>        
+    </div>
+    <div class='info'>
+        <p>Working roms: HIDDEN, IBM, MAZE, TICTAC, PONG2</p>
+    </div>
+</body>
+</html>

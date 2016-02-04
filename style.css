@@ -1,0 +1,28 @@
+.rom-select {
+    text-align: center;
+    padding-top: 6px;
+}
+
+.monitor {
+    text-align: center;
+    padding-top: 6px;
+}
+
+.keyboard {
+    text-align: center;
+}
+
+.keyboard-row {
+    text-align: center;
+    padding-top: 6px;
+}
+
+.key {
+    text-align: center;
+    font-family: 'Courier New';
+    background: '';    
+}
+
+.info {
+    text-align: center;
+}
