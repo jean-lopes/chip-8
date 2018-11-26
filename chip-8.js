@@ -134,7 +134,7 @@ var chip8 = {
 	},
 
 	log: function(msg) {
-		//console.log(msg.toUpperCase());
+		console.log(msg.toUpperCase());
 	},
 
 	load: function(rom) {
